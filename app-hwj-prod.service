@@ -1,0 +1,9 @@
+[Unit]
+Description=webserver Daemon
+
+[Service]
+ExecStart=/usr/bin/java -Dhelloworld.port=8100 -jar HelloWorld-prod.jar
+User=root
+
+[Install]
+WantedBy=multi-user.target
