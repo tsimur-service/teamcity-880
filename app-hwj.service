@@ -2,7 +2,7 @@
 Description=webserver Daemon
 
 [Service]
-ExecStart=/usr/bin/java -Dhelloworld.port=8000 -jar HelloWorld.jar
+ExecStart=/usr/bin/java -Dhelloworld.port=8000 -jar /home/vagrant/HelloWorld.jar
 User=root
 
 [Install]
